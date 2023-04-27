@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/horror-game-score-point-117202.mp3-a296a3bb3568992638dbf4db3fb60383.mp3str"
+
+[deps]
+
+source_file="res://Music/horror-game-score-point-117202.mp3"
+dest_files=[ "res://.import/horror-game-score-point-117202.mp3-a296a3bb3568992638dbf4db3fb60383.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

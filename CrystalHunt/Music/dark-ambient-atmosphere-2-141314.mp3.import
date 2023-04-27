@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/dark-ambient-atmosphere-2-141314.mp3-6c46dfac76e1640477d8f05e032e3881.mp3str"
+
+[deps]
+
+source_file="res://Music/dark-ambient-atmosphere-2-141314.mp3"
+dest_files=[ "res://.import/dark-ambient-atmosphere-2-141314.mp3-6c46dfac76e1640477d8f05e032e3881.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

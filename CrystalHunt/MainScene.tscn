@@ -77,6 +77,9 @@ parameters/playback = SubResource( 10 )
 [node name="Camera" parent="Player3/CameraOrbit" index="0"]
 far = 50.0
 
+[node name="CrystalNoise" parent="Player3" index="4"]
+volume_db = -19.554
+
 [node name="BackgroundMusic" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource( 2 )
 autoplay = true

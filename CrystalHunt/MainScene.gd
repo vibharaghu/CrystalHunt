@@ -8,11 +8,11 @@ var rng = RandomNumberGenerator.new()
 
 func _ready():
 	randomize()
-	#for i in range(200):
-		#add_trees()
+	for i in range(200):
+		add_trees()
 	for i in range(40):
 		add_crystal()
-	#add_border()
+	add_border()
 
 func _process(delta):
 	if timer.time <= 0:
@@ -44,7 +44,7 @@ func add_crystal():
 	var crystal = load("res://Crystal.tscn")
 	var instance = crystal.instance()
 	add_child(instance)
-	var position = Vector3(randi() % 80 - 40, 1, randi() % 80 - 40)
+	var position = Vector3(randi() % 180 - 90, 1, randi() % 180 - 90)
 	instance.translation = position
 	crystals.append(instance)
 

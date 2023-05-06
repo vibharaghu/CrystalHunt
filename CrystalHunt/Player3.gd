@@ -99,6 +99,7 @@ func _physics_process(delta):
 
 func _ready ():
 	ui.update_crystal_text(0)
+	$CrystalNoise.autoplay = false
 	
 func give_points(amount):
 	$CrystalNoise.play()
